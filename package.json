@@ -14,5 +14,21 @@
     "realtime"
   ],
   "author": "Gustavo Felício",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gFelicio/feed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gFelicio/feed/issues"
+  },
+  "homepage": "https://github.com/gFelicio/feed#readme"
 }

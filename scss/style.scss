@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #EDEDED;
+}
+.header {
+  color: #fff;
+  padding: 20px  20px;
+  top: 0px;
+  width: 100%;
+  background: #E53935;
+  text-align:center;
+}
+#amp-live-list-videos {
+  margin-bottom: 50px;
+}
+#live-list-update-button {
+  color: #E53935;
+  border: 1px solid #E53935;
+  padding: .7em .8em;
+  cursor: pointer;
+  background-color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+.post {
+  margin-top: 20px;
+}
+#live-list-update-button {
+  position: fixed;
+  top: 10px;
+  right: 16px;
+}
+.pagination {
+  display: inline-block;
+  padding: 0;
+}
+amp-live-list [pagination] nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination li {
+  display: inline;
+  padding: 10px;
+  list-style-type: none;
+  color: #000;
+}
