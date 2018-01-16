@@ -1,0 +1,18 @@
+{
+  "name": "feed",
+  "version": "1.0.0",
+  "description": "real time feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "feed",
+    "list",
+    "live",
+    "realtime"
+  ],
+  "author": "Gustavo Felício",
+  "license": "ISC"
+}
