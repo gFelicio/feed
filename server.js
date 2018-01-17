@@ -8,7 +8,7 @@ const pageSize = 5;
 const app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
-app.use(bodyparser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({extended:true}));
 
 app.get('/', (req, res) => {
     let currentPage = 1;
