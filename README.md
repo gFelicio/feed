@@ -11,7 +11,7 @@
 5. Using the Postman tool, hit the http://localhost:3000/new with a JSON markup like
 
 {
-    "videoID": "[YOUTUBE_VIDEO_ID"
+    "videoID": "[YOUTUBE_VIDEO_ID]"
 }
 
 Wait a moment to see the video being inserted in the live-list.
